@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title> My JQUERY Example</title>
+<style type="text/css">
+    img{
+        margin: 5px;
+    }
+	.bs-example{
+    	margin: 20px;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").on({
+        mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+        },  
+        mouseleave: function(){
+            $(this).css("background-color", "lightgreen");
+        }, 
+        click: function(){
+            $(this).css("background-color", "yellow");
+        }  
+    });
+});
+</script>
+
+</head>
+
+<body BGCOLOR="WHITE">
+<center>
+<p><a href="/mywebsite/index.html"><img border="0" src="/mywebsite/images/logo.jpg" style="width:260px;height:50px;"></a></p>
+<p> |<a href="/mywebsite/index.html"> Home </a> 
+	|<a href="/mywebsite/mypage.html"> My Page </a> 
+	| My Stuff </a> 
+	|<a href="/mywebsite/contactus.html"> Contact Me </a> |
+</p>
+</center>
+<center>
+<p>
+<a href="/mywebsite/testhtml.html"><img border="0" src="/mywebsite/images/logo-html.jpg" style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testcss.html"><img border="0" src="/mywebsite/images/logo-css.jpg"  style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testjavascript.html"><img border="0" src="/mywebsite/images/logo-javascript.jpg"  style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testjquery.html"><img border="0" src="/mywebsite/images/logo-jquery.jpg"  style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testangularjs.html"><img border="0" src="/mywebsite/images/logo-angularjs.jpg"  style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testbootstrap.html"><img border="0" src="/mywebsite/images/logo-bootstrap.jpg"  style="width:60px;height:60px;"></a>
+<a href="/mywebsite/testajax.html"><img border="0" src="/mywebsite/images/logo-ajax.jpg"  style="width:60px;height:60px;"></a>
+<br><br> Click on above images to see examples.
+</p></center>
+<hr>
+<center><h2><font color="blue"> JQuery Example</font> </h2></center><br>
+<p>Click<br> or move<br> the mouse pointer<br> over this paragraph.<br>color change using JQuery.</p>
+<hr>
+<p><center> Copyright © 2017 sudhadesigns.com</center></p>
+</body> 
+</html>
